@@ -131,7 +131,7 @@ function updateClock(){
 setInterval(updateClock,1000);
 
 // 📊 STOCK API
-const apiKey = "YOUR_FINNHUB_KEY";
+const apiKey = "d7kc2n1r01qiqbctqjpgd7kc2n1r01qiqbctqjq0";
 
 // default stocks
 let stocks = ["AAPL","TSLA","MSFT","NVDA"];
@@ -193,7 +193,7 @@ document.getElementById("search").addEventListener("keydown", (e)=>{
 
 // 📰 NEWS (simple)
 async function loadNews(){
-    const res = await fetch("https://newsapi.org/v2/top-headlines?language=en&pageSize=5&apiKey=YOUR_API_KEY");
+    const res = await fetch("https://newsapi.org/v2/top-headlines?language=en&pageSize=5&apiKey=97a32a44f39d479b8e3af9c445fa07d0");
     const data = await res.json();
 
     const container = document.getElementById("news");
