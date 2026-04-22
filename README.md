@@ -1,1 +1,1 @@
-# global-intelligence
+idex.html
